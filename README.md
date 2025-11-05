@@ -22,17 +22,23 @@ node index.js
 
 # Criar atalho para scripts
 
- - No arquivo package.json logo depois de:
+ - No arquivo `package.json` logo depois de:
 
 ```json
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
 ```
-- Coloque virgula depois de " insira virgula e na linha de baixo insira `"comando personalizado": "comando" ficando assim:
+- Coloque virgula depois do comando `test` e na linha de baixo insira `"atalho": "comando"` ficando assim:
 
 ```json
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
 },
+```
+
+- E no terminal digite:
+
+```bash
+npm start
 ```
