@@ -36,3 +36,9 @@ node index.js
     "start": "node index.js"
 },
 ```
+
+- Rodando o atalho
+
+```bash
+npm start
+```
