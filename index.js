@@ -3,8 +3,8 @@ const app = express()
 app.get('/', (req, res) => {
     res.send('Hello World')
 })
-app.get('/teste', (req, res) => {
-    res.send('testado')
+app.get('/oi', (req, res) => {
+    res.send('Olá, mundo!')
 })
 
 app.listen(3000)
